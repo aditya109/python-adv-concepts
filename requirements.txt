@@ -1,0 +1,10 @@
+aiohttp==3.6.2
+attrs==20.1.0
+chardet==3.0.4
+idna==2.10
+multidict==4.7.6
+six==1.15.0
+yarl==1.5.1
+
+pip~=20.2.2
+setuptools~=20.1.1
