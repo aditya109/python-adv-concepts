@@ -1,0 +1,16 @@
+// Ping Pong Proto File
+// python -m grpc_tools.protoc -I ./protos --python_out=. --grpc_python_out=. ./protos/pingpong.proto
+syntax = "proto3";
+
+package test1;
+
+service PingPongService {
+    rpc ping (Ping) returns (Pong);
+}
+
+message Ping {
+    int64 count = 1;
+}
+message Pong {
+    int64 count = 1;
+}
